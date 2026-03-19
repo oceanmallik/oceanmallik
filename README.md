@@ -5,7 +5,7 @@ I'm a student of Software Engineering who is passionate about building reliable 
 ## 🛠 About Me
 
 * 🔭 I’m currently on **Daffodil International University**
-* 📫 How to reach me: **[LinkedIn(https://www.linkedin.com/in/oceanmallik)]**
+* 📫 How to reach me: **[LinkedIn](https://www.linkedin.com/in/oceanmallik)**
 
 ---
 
