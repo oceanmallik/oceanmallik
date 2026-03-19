@@ -12,13 +12,13 @@ I'm a student of [Software Engineering] who is passionate about building reliabl
 ## 💻 Tech Stack
 
 **Languages & Frameworks:**
-* Rust
-* [Other Language]
-* [Other Language]
+* C
+* C++
+* C# (.net)
 
 **Tools & Infrastructure:**
 * Git & GitHub
-* [Docker / Linux / etc.]
+* Linux
 
 ---
 
