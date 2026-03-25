@@ -12,7 +12,7 @@ I'm a student of Software Engineering who is passionate about building reliable 
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=oceanmallik&theme=dark&hide_border=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=oceanmallik&theme=dark&hide_border=false&v=1)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact&hide=shell,powershell,html,css&v=2)
 
 ## 🌐 Socials:
