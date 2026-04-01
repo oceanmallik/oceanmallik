@@ -39,7 +39,6 @@ jobs:
       - name: Fetch Streak Stats (From Public API)
         run: |
           echo "Fetching Streak Stats from nirzak-streak-stats.vercel.app..."
-          # By downloading it via Action, you still host the SVG locally in your repo!
           curl --fail -s "https://nirzak-streak-stats.vercel.app/?user=oceanmallik&theme=dark&hide_border=false" > streak-stats.svg
 
       - name: Commit and Push
