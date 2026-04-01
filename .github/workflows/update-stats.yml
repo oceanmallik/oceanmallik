@@ -43,8 +43,8 @@ jobs:
 
       - name: Fetch Streak Stats (From Public API)
         run: |
-          echo "Fetching Streak Stats from nirzak-streak-stats.vercel.app..."
-          curl --fail -s "https://nirzak-streak-stats.vercel.app/?user=oceanmallik&theme=dark&hide_border=false" > streak-stats.svg
+          echo "Fetching Streak Stats from the official demolab instance..."
+          curl --fail -s "https://streak-stats.demolab.com/?user=oceanmallik&theme=dark&hide_border=false" > streak-stats.svg
 
       - name: Commit and Push
         run: |
