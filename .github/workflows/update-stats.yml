@@ -26,12 +26,10 @@ jobs:
         env:
           PAT_1: ${{ secrets.GH_PAT }}
         run: |
-          # 1. Clone the official repo
           git clone https://github.com/anuraghazra/github-readme-stats.git /tmp/ghrs
           cd /tmp/ghrs
           npm install
           
-          # 2. Start the native Node server using their new express entrypoint!
           PORT=3000 node express.js &
           
           echo "Waiting for Node server to boot..."
@@ -47,13 +45,12 @@ jobs:
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          # 1. Clone the streak stats repo
           git clone https://github.com/DenverCoder1/github-readme-streak-stats.git /tmp/streak
           cd /tmp/streak
           composer install
           
-          # 2. Start the native PHP server
-          php -S localhost:8000 &
+          # Tell PHP to explicitly use 'src' as the document root!
+          php -S localhost:8000 -t src &
           
           echo "Waiting for PHP server to boot..."
           timeout 15 bash -c 'until curl -s http://localhost:8000 > /dev/null; do sleep 2; done'
