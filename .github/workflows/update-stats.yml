@@ -17,12 +17,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.2'
-
-      - name: Generate GitHub Readme Stats & Top Langs
+      - name: Generate GitHub Readme Stats & Top Langs (Locally)
         env:
           PAT_1: ${{ secrets.GH_PAT }}
         run: |
@@ -41,24 +36,11 @@ jobs:
           curl --fail -s "http://localhost:3000/api?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false" > github-stats.svg
           curl --fail -s "http://localhost:3000/api/top-langs?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact&hide=shell,powershell,html,css&v=1" > top-langs.svg
 
-      - name: Generate Streak Stats
-        env:
-          TOKEN: ${{ secrets.GH_PAT }}
+      - name: Fetch Streak Stats (From Public API)
         run: |
-          git clone https://github.com/DenverCoder1/github-readme-streak-stats.git /tmp/streak
-          cd /tmp/streak
-          composer install
-          
-          # Tell PHP to explicitly use 'src' as the document root!
-          php -S localhost:8000 -t src &
-          
-          echo "Waiting for PHP server to boot..."
-          timeout 15 bash -c 'until curl -s http://localhost:8000 > /dev/null; do sleep 2; done'
-          
-          cd ${{ github.workspace }}
-          
-          echo "Fetching Streak Stats..."
-          curl --fail -s "http://localhost:8000/?user=oceanmallik&theme=dark&hide_border=false" > streak-stats.svg
+          echo "Fetching Streak Stats from nirzak-streak-stats.vercel.app..."
+          # By downloading it via Action, you still host the SVG locally in your repo!
+          curl --fail -s "https://nirzak-streak-stats.vercel.app/?user=oceanmallik&theme=dark&hide_border=false" > streak-stats.svg
 
       - name: Commit and Push
         run: |
