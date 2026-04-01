@@ -8,6 +8,11 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    
+    # THIS IS THE MAGIC LINE: It allows the bot to push the SVGs to your repo
+    permissions:
+      contents: write 
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
