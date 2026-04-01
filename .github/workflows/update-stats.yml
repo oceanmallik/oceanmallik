@@ -12,44 +12,55 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
 
-      - name: Generate GitHub Readme Stats & Top Langs (via Docker)
+      - name: Generate GitHub Readme Stats & Top Langs
         env:
           PAT_1: ${{ secrets.GH_PAT }}
         run: |
-          # Start the Docker container mapping port 3000 (host) to 3000 (container)
-          docker run -d -p 3000:3000 -e PAT_1="${PAT_1}" ghcr.io/utkuozdemir/github-readme-stats-selfhosted:latest
+          # 1. Clone the official repo
+          git clone https://github.com/anuraghazra/github-readme-stats.git /tmp/ghrs
+          cd /tmp/ghrs
+          npm install
           
-          echo "Waiting for Docker container to start..."
-          # Loop to wait until the server responds with a 200 OK status
-          timeout 30 bash -c 'until curl -s -f http://localhost:3000 > /dev/null; do sleep 2; done' || (echo "Server failed to start in time" && docker logs $(docker ps -q) && exit 1)
+          # 2. Start the native Node server using their new express entrypoint!
+          PORT=3000 node express.js &
           
-          echo "Container is up! Fetching SVGs..."
+          echo "Waiting for Node server to boot..."
+          timeout 30 bash -c 'until curl -s http://localhost:3000 > /dev/null; do sleep 2; done'
           
-          # Use --fail to catch HTTP errors (like 500 or 404) and output them to the console
+          cd ${{ github.workspace }}
+          
+          echo "Fetching Readme Stats and Top Langs..."
           curl --fail -s "http://localhost:3000/api?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false" > github-stats.svg
           curl --fail -s "http://localhost:3000/api/top-langs?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact&hide=shell,powershell,html,css&v=1" > top-langs.svg
 
-      - name: Generate Streak Stats (via PHP)
+      - name: Generate Streak Stats
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
+          # 1. Clone the streak stats repo
           git clone https://github.com/DenverCoder1/github-readme-streak-stats.git /tmp/streak
           cd /tmp/streak
           composer install
+          
+          # 2. Start the native PHP server
           php -S localhost:8000 &
           
-          echo "Waiting for PHP server to start..."
-          # Loop to wait until the PHP server responds
+          echo "Waiting for PHP server to boot..."
           timeout 15 bash -c 'until curl -s http://localhost:8000 > /dev/null; do sleep 2; done'
           
           cd ${{ github.workspace }}
           
-          echo "Fetching Streak Stats SVG..."
+          echo "Fetching Streak Stats..."
           curl --fail -s "http://localhost:8000/?user=oceanmallik&theme=dark&hide_border=false" > streak-stats.svg
 
       - name: Commit and Push
