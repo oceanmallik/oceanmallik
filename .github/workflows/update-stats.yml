@@ -2,9 +2,9 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    # Runs at minute 0 past every 6th hour (00:00, 06:00, 12:00, 18:00)
+    # Runs at minute 0 past every 6th hour
     - cron: "0 */6 * * *"
-  workflow_dispatch: # Allows manual triggering from the Actions tab
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -13,50 +13,40 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
 
-      - name: Generate GitHub Readme Stats & Top Langs
+      - name: Generate GitHub Readme Stats & Top Langs (via Docker)
         env:
           PAT_1: ${{ secrets.GH_PAT }}
         run: |
-          # Clone the official repo and start the local Node.js server
-          git clone https://github.com/anuraghazra/github-readme-stats.git /tmp/ghrs
-          cd /tmp/ghrs
-          npm install
-          npm start &
+          # 1. Start the community-maintained Docker image (which perfectly mirrors the Vercel environment)
+          docker run -d -p 9000:9000 -e PAT_1="${PAT_1}" ghcr.io/utkuozdemir/github-readme-stats-selfhosted:latest
           
-          # Wait for the server to boot
-          sleep 10
-          cd ${{ github.workspace }}
+          # 2. Wait for the container's node server to fully boot
+          sleep 15
           
-          # Fetch your specific Main Stats and Top Langs SVGs
-          curl -s "http://localhost:3000/api?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false" > github-stats.svg
-          curl -s "http://localhost:3000/api/top-langs/?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact&hide=shell,powershell,html,css&v=1" > top-langs.svg
+          # 3. Fetch your specific SVGs
+          curl -s "http://localhost:9000/api?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false" > github-stats.svg
+          curl -s "http://localhost:9000/api/top-langs?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact&hide=shell,powershell,html,css&v=1" > top-langs.svg
 
-      - name: Generate Streak Stats
+      - name: Generate Streak Stats (via PHP)
         env:
-          # The streak-stats repo specifically looks for 'TOKEN' instead of 'PAT_1'
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          # Clone the official streak stats repo and start the local PHP server
+          # 1. Clone the streak stats repo and start the local PHP server
           git clone https://github.com/DenverCoder1/github-readme-streak-stats.git /tmp/streak
           cd /tmp/streak
           composer install
           php -S localhost:8000 &
           
-          # Wait for the server to boot
+          # 2. Wait for the PHP server to boot
           sleep 5
           cd ${{ github.workspace }}
           
-          # Fetch your specific Streak Stats SVG
+          # 3. Fetch your Streak Stats SVG
           curl -s "http://localhost:8000/?user=oceanmallik&theme=dark&hide_border=false" > streak-stats.svg
 
       - name: Commit and Push
@@ -66,6 +56,5 @@ jobs:
           
           git add github-stats.svg top-langs.svg streak-stats.svg
           
-          # Prevent the workflow from failing if there are no changes to commit
           git commit -m "chore: dynamically update github stats" || exit 0
           git push
