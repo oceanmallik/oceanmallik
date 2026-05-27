@@ -29,12 +29,8 @@ Software engineering student building reliable, efficient software with a focus 
 <table align="center">
 	<tr>
 		<td><img src="./github-stats.svg" alt="GitHub stats" width="100%" /></td>
+        <td><img src="./top-langs.svg" alt="Top languages" width="100%" /></td>
 		<td><img src="./streak-stats.svg" alt="GitHub streak stats" width="100%" /></td>
-		<td><img src="./top-langs.svg" alt="Top languages" width="100%" /></td>
 	</tr>
 </table>
-
-## Contact
-
-- LinkedIn: [linkedin.com/in/oceanmallik](https://www.linkedin.com/in/oceanmallik)
 
