@@ -11,7 +11,7 @@ I'm a student of Software Engineering who is passionate about building reliable 
 * 📫 How to reach me: **[LinkedIn](https://www.linkedin.com/in/oceanmallik)**
 
 ## 📊 GitHub Stats:
-![](./github-stats.svg)<br/>![](./top-langs.svg)
+![](./github-stats.svg)<br/> ![](./top-langs.svg)
 ![](./streak-stats.svg)<br/>
 
 ### 🌐 Socials:
