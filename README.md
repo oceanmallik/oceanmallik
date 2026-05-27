@@ -34,3 +34,11 @@ Software engineering student building reliable, efficient software with a focus 
 	</tr>
 </table>
 
+## Featured Work
+
+<table align="center">
+	<tr>
+		<td><img src="./github-stats.svg" alt="My Website in light mode" width="100%" /></td>
+	</tr>
+</table>
+
