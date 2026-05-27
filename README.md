@@ -8,7 +8,7 @@ Software engineering student building reliable, efficient software with a focus 
 
 </div>
 
-<br/>
+</br>
 
 ## What I Work On
 
@@ -33,6 +33,8 @@ Software engineering student building reliable, efficient software with a focus 
 		<td><img src="./streak-stats.svg" alt="GitHub streak stats" width="100%" /></td>
 	</tr>
 </table>
+
+</br>
 
 ## Featured Work
 
