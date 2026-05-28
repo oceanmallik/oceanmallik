@@ -42,7 +42,7 @@ Software engineering student building reliable, efficient software with a focus 
 
 DIU Notes Buddy is a free, open-source note-sharing platform built for students of the Software Engineering Department at Daffodil International University (DIU). No sign-ups, no paywalls — just organized, accessible study materials for everyone.
 
-<img alt="Static Badge" src="https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red&link=https%3A%2F%2Fdiunotesbuddy.live%2F">
+[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/)
 
 <table align="center">
 	<tr>
