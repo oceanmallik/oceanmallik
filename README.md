@@ -4,7 +4,7 @@
 
 Software engineering student building reliable, efficient software with a focus on clean implementation and practical problem solving.
 
-[LinkedIn](https://www.linkedin.com/in/oceanmallik) • [GitHub](https://github.com/oceanmallik)
+[![LinkedIn](https://img.shields.io/badge/Linkedin-%40oceanmallik-black?style=social&logo=linkedin&labelColor=red)](https://www.linkedin.com/in/oceanmallik/) • [GitHub](https://github.com/oceanmallik)
 
 </div>
 
