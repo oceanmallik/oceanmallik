@@ -67,3 +67,22 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 	</tr>
 </table>
 
+## 2. My Main Portfolio Website
+
+This is the source for oceanmallik.com — a small, multi-page personal portfolio built with plain HTML, modern CSS, and vanilla JavaScript. The site is served as static assets with no build step or external dependencies, so it can be deployed directly to any static hosting provider.
+
+<div align="center">
+
+[![My Website](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://oceanmallik.com/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FmyWebsite-black?style=for-the-badge&logo=github&labelColor=14FF82)](https://github.com/oceanmallik/myWebsite)
+
+</div>
+
+<table align="center">
+	<tr>
+		<td>
+			<picture>
+				<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="DIU Notes Buddy" width="100%" />
+			</picture>
+		</td>
+	</tr>
+</table>
