@@ -60,8 +60,7 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 	<tr>
 		<td>
 			<picture>
-				<source media="(prefers-color-scheme: dark)" srcset="./project-assets/DIUNotesBuddy/DNB-Dark.png" />
-				<img src="./project-assets/DIUNotesBuddy/DNB-Light.png" alt="DIU Notes Buddy" width="100%" />
+				<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy" width="100%" />
 			</picture>
 		</td>
 	</tr>
@@ -81,7 +80,7 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 	<tr>
 		<td>
 			<picture>
-				<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="DIU Notes Buddy" width="100%" />
+				<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="My Portfolio Website" width="100%" />
 			</picture>
 		</td>
 	</tr>
