@@ -4,7 +4,7 @@
 
 ### Software engineering student building reliable, efficient software with a focus on clean implementation and practical problem solving.
 
-[![LinkedIn](https://img.shields.io/badge/Linkedin-%40oceanmallik-black?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBpbWFnZS1yZW5kZXJpbmc9Im9wdGltaXplUXVhbGl0eSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCA1MTIgNTA5LjY0Ij48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUwOS42NCIgcng9IjExNS42MSIgcnk9IjExNS42MSIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMDQuOTcgMTk3LjU0aDY0LjY5djMzLjE2aC45NGM5LjAxLTE2LjE2IDMxLjA0LTMzLjE2IDYzLjg5LTMzLjE2IDY4LjMxIDAgODAuOTQgNDIuNTEgODAuOTQgOTcuODF2MTE2LjkyaC02Ny40NmwtLjAxLTEwNC4xM2MwLTIzLjgxLS40OS01NC40NS0zNS4wOC01NC40NS0zNS4xMiAwLTQwLjUxIDI1LjkxLTQwLjUxIDUyLjcydjEwNS44NmgtNjcuNFYxOTcuNTR6bS0zOC4yMy02NS4wOWMwIDE5LjM2LTE1LjcyIDM1LjA4LTM1LjA4IDM1LjA4LTE5LjM3IDAtMzUuMDktMTUuNzItMzUuMDktMzUuMDggMC0xOS4zNyAxNS43Mi0zNS4wOCAzNS4wOS0zNS4wOCAxOS4zNiAwIDM1LjA4IDE1LjcxIDM1LjA4IDM1LjA4em0tNzAuMTcgNjUuMDloNzAuMTd2MjE0LjczSDk2LjU3VjE5Ny41NHoiLz48L3N2Zz4=&labelColor=blue)](https://www.linkedin.com/in/oceanmallik/) [![Github](https://img.shields.io/badge/Github-%40oceanmallik-black?style=for-the-badge&logo=Github&labelColor=red)](https://github.com/oceanmallik)
+[![LinkedIn](https://img.shields.io/badge/Linkedin-%40oceanmallik-black?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBpbWFnZS1yZW5kZXJpbmc9Im9wdGltaXplUXVhbGl0eSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCA1MTIgNTA5LjY0Ij48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUwOS42NCIgcng9IjExNS42MSIgcnk9IjExNS42MSIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMDQuOTcgMTk3LjU0aDY0LjY5djMzLjE2aC45NGM5LjAxLTE2LjE2IDMxLjA0LTMzLjE2IDYzLjg5LTMzLjE2IDY4LjMxIDAgODAuOTQgNDIuNTEgODAuOTQgOTcuODF2MTE2LjkyaC02Ny40NmwtLjAxLTEwNC4xM2MwLTIzLjgxLS40OS01NC40NS0zNS4wOC01NC40NS0zNS4xMiAwLTQwLjUxIDI1LjkxLTQwLjUxIDUyLjcydjEwNS44NmgtNjcuNFYxOTcuNTR6bS0zOC4yMy02NS4wOWMwIDE5LjM2LTE1LjcyIDM1LjA4LTM1LjA4IDM1LjA4LTE5LjM3IDAtMzUuMDktMTUuNzItMzUuMDktMzUuMDggMC0xOS4zNyAxNS43Mi0zNS4wOCAzNS4wOS0zNS4wOCAxOS4zNiAwIDM1LjA4IDE1LjcxIDM1LjA4IDM1LjA4em0tNzAuMTcgNjUuMDloNzAuMTd2MjE0LjczSDk2LjU3VjE5Ny41NHoiLz48L3N2Zz4=&labelColor=blue)](https://www.linkedin.com/in/oceanmallik/) [![Github](https://img.shields.io/badge/Github-%40oceanmallik-black?style=for-the-badge&logo=Github&logoColor=black&labelColor=red)](https://github.com/oceanmallik)
 
 
 </div>
@@ -52,7 +52,7 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 
 <div align="center">
 
-[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddy-black?style=for-the-badge&logo=github&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddy)
+[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddy-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddy)
 
 </div>
 
@@ -72,7 +72,7 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 
 <div align="center">
 
-[![My Website](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://oceanmallik.com/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FmyWebsite-black?style=for-the-badge&logo=github&labelColor=14FF82)](https://github.com/oceanmallik/myWebsite)
+[![My Website](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://oceanmallik.com/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FmyWebsite-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/myWebsite)
 
 </div>
 
