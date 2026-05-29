@@ -29,7 +29,7 @@
 
 </div>
 
-## GitHub Snapshot
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/See-No-Evil%20Monkey.png" alt="See-No-Evil Monkey" width="22" height="22" /> GitHub Snapshot
 
 <table align="center">
 	<tr>
@@ -41,7 +41,7 @@
 
 </br>
 
-# Works That I've Worked on
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium%20Skin%20Tone.png" alt="Man Technologist Medium Skin Tone" width="22" height="22" /> Works That I've Worked on
 
 ## 1. DIU Notes Buddy
 
