@@ -10,8 +10,6 @@
 
 </div>
 
-</br>
-
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Sunglasses.png" alt="Smiling Face with Sunglasses" width="22" height="22" /> What I Work On
 
 - Strong foundations in programming and software engineering
