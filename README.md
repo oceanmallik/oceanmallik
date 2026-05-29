@@ -11,13 +11,13 @@
 
 </br>
 
-## What I Work On
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Sunglasses.png" alt="Smiling Face with Sunglasses" width="22" height="22" /> What I Work On
 
 - Strong foundations in programming and software engineering
 - Building projects that are simple to understand and dependable to run
 - Learning by solving real problems and refining the result
 
-## Tech Stack
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="22" height="22" /> Tech Stack
 
 <div align="center">
 
