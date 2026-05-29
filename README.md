@@ -11,11 +11,17 @@
 
 </br>
 
-<table align="center" width="100%">
+<table align="center" style="border-collapse: collapse; border-spacing: 0;">
   <tr>
-    <td width="33%"><img src="./github-stats.svg" alt="GitHub stats" width="100%" /></td>
-    <td width="33%"><img src="./top-langs.svg" alt="Top languages" width="100%" /></td>
-    <td width="34%"><img src="./streak-stats.svg" alt="GitHub streak stats" width="100%" /></td>
+    <td style="padding: 0; margin: 0;">
+      <img src="./github-stats.svg" alt="GitHub stats" width="100%" style="display: block;" />
+    </td>
+    <td style="padding: 0; margin: 0;">
+      <img src="./top-langs.svg" alt="Top languages" width="100%" style="display: block;" />
+    </td>
+    <td style="padding: 0; margin: 0;">
+      <img src="./streak-stats.svg" alt="GitHub streak stats" width="100%" style="display: block;" />
+    </td>
   </tr>
 </table>
 
