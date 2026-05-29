@@ -1,6 +1,7 @@
 <div align="center">
-
-# Ocean Mallik
+	<img src="./project-assets/welcomePhoto.png" alt="DIU Notes Buddy" width="100%" />
+</div>
+<div align="center">
 
 ### Software engineering student building reliable, efficient software with a focus on clean implementation and practical problem solving.
 
@@ -54,8 +55,7 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 </div>
 
 <div align="center">
-<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy" width="100%" />
-
+	<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy" width="100%" />
 </div>
 
 ## 2. My Main Portfolio Website
@@ -69,6 +69,5 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 </div>
 
 <div align="center">
-<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="My Portfolio Website" width="100%" />
-
+	<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="My Portfolio Website" width="100%" />
 </div>
