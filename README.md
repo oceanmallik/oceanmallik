@@ -82,3 +82,7 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 		</td>
 	</tr>
 </table>
+
+<div align="center">
+<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="My Portfolio Website" width="100%" />
+</div>
