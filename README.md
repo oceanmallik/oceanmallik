@@ -33,9 +33,9 @@
 
 <table align="center">
 	<tr>
-		<td><img src="./github-stats.svg" alt="GitHub stats" width="100%" /></td>
+  <td><img src="./github-stats.svg" alt="GitHub stats" width="100%" /></td>
   <td><img src="./top-langs.svg" alt="Top languages" width="100%" /></td>
-		<td><img src="./streak-stats.svg" alt="GitHub streak stats" width="100%" /></td>
+  <td><img src="./streak-stats.svg" alt="GitHub streak stats" width="100%" /></td>
 	</tr>
 </table>
 
