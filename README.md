@@ -11,6 +11,14 @@
 
 </br>
 
+<table align="center" width="100%">
+  <tr>
+    <td width="33%"><img src="./github-stats.svg" alt="GitHub stats" width="100%" /></td>
+    <td width="33%"><img src="./top-langs.svg" alt="Top languages" width="100%" /></td>
+    <td width="34%"><img src="./streak-stats.svg" alt="GitHub streak stats" width="100%" /></td>
+  </tr>
+</table>
+
 ## What I Work On
 
 - Strong foundations in programming and software engineering
