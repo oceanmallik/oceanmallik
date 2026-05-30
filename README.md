@@ -34,7 +34,7 @@
 
 DIU Notes Buddy is a free, open-source note-sharing platform built for students of the Software Engineering Department at Daffodil International University (DIU). No sign-ups, no paywalls — just organized, accessible study materials for everyone.
 
-![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=for-the-badge) 
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white) ![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
 
 <div align="center">
 
@@ -49,6 +49,8 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 ## 2. My Main Portfolio Website
 
 This is the source for oceanmallik.com — a small, multi-page personal portfolio built with plain HTML, modern CSS, and vanilla JavaScript. The site is served as static assets with no build step or external dependencies, so it can be deployed directly to any static hosting provider.
+
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white)
 
 <div align="center">
 
