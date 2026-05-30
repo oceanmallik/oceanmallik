@@ -43,7 +43,9 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 </div>
 
 <div align="center">
-	<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy" width="100%" />
+	<a href="https://diunotesbuddy.live/">
+		<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy" width="100%" />
+	</a>
 </div>
 
 ## 2. My Main Portfolio Website
@@ -59,5 +61,7 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 </div>
 
 <div align="center">
-	<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="My Portfolio Website" width="100%" />
+	<a href="https://www.oceanmallik.com/">
+		<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="My Portfolio Website" width="100%" />
+	</a>
 </div>
