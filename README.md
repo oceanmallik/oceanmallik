@@ -50,7 +50,7 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 
 ## 2. DIUBlood
 
-DIUBlood is a blood donor discovery platform built for the Daffodil International University community. It connects people in urgent need of blood with registered donors — quickly, cleanly, and without friction.
+DIUBlood is a blood donor discovery platform built for the Daffodil International University community. It connects people in urgent need of blood with registered donors — quickly, cleanly, and without friction. Click below on the red "Live Website" button to see the website. 
 
 ![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white) ![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
 
@@ -62,7 +62,7 @@ DIUBlood is a blood donor discovery platform built for the Daffodil Internationa
 
 <div align="center">
 	<a href="https://blood.oceanmallik.com/">
-		<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="DIUBlood" width="100%" />
+		<img src="./project-assets/Blood/donors.png" alt="DIUBlood" width="100%" />
 	</a>
 </div>
 
