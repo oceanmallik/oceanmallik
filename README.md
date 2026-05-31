@@ -48,7 +48,25 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 	</a>
 </div>
 
-## 2. My Main Portfolio Website
+## 2. DIUBlood
+
+DIUBlood is a blood donor discovery platform built for the Daffodil International University community. It connects people in urgent need of blood with registered donors — quickly, cleanly, and without friction.
+
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white) ![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
+
+<div align="center">
+
+[![Blood](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-BLOOD.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://blood.oceanmallik.com/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FOneDropOneLife-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/OneDropOneLife)
+
+</div>
+
+<div align="center">
+	<a href="https://blood.oceanmallik.com/">
+		<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="DIUBlood" width="100%" />
+	</a>
+</div>
+
+## 3. My Main Portfolio Website
 
 This is the source for oceanmallik.com — a small, multi-page personal portfolio built with plain HTML, modern CSS, and vanilla JavaScript. The site is served as static assets with no build step or external dependencies, so it can be deployed directly to any static hosting provider.
 
