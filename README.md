@@ -84,8 +84,25 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 	</a>
 </div>
 
+## 4. Best Friend Gallery (Static)
 
-## 4. Static Birthday Wishing Site
+A nostalgic letter in motion celebrating a friendship that began in high school in 2022 and became something deeper—the kind of bond where a best friend becomes family.
+
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white)
+
+<div align="center">
+
+[![Best Friend Site](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-NIMU.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://nimu.oceanmallik.com/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FbestFriend-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/bestFriend)
+
+</div>
+
+<div align="center">
+	<a href="https://www.oceanmallik.com/">
+		<img src="./project-assets/" alt="My Portfolio Website" width="100%" />
+	</a>
+</div>
+
+## 5. Birthday Wishing Site (Static)
 
 A full-screen, scrollable birthday celebration website built with pure HTML and CSS (no JavaScript needed).
 
