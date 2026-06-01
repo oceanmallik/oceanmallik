@@ -114,8 +114,7 @@ A full-screen, scrollable birthday celebration website built with pure HTML and 
 </div>
 
 <div align="center">
-	<a href="https://birthday.oceanmallik.com/">
-		<img src="./project-assets/Birthday/Birthday.png" alt="Birthday Site" align="left" width="66%" />
-		<img src="./project-assets/Birthday/Cake.gif" alt="Cake Gif" width="34%"  align="right">
-	</a>
+  <a href="https://birthday.oceanmallik.com/">
+    <img src="./project-assets/Birthday/Birthday.png" alt="Birthday Site" width="65%" /><img src="./project-assets/Birthday/Cake.gif" alt="Cake Gif" width="35%" />
+  </a>
 </div>
