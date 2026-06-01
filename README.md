@@ -98,7 +98,7 @@ A nostalgic letter in motion celebrating a friendship that began in high school 
 
 <div align="center">
 	<a href="https://www.oceanmallik.com/">
-		<img src="./project-assets/" alt="My Portfolio Website" width="100%" />
+		<img src="./project-assets/BestFriend/BestFriend.png" alt="My Portfolio Website" width="100%" />
 	</a>
 </div>
 
