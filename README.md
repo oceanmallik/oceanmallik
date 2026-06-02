@@ -30,7 +30,7 @@
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium%20Skin%20Tone.png" alt="Man Technologist Medium Skin Tone" width="22" height="22" /> Works That I've Worked on
 
-## 1. DIU Notes Buddy
+## 1. DIU Notes Buddy (Website/App Coming Soon)
 
 DIU Notes Buddy is a free, open-source note-sharing platform built for students of the Software Engineering Department at Daffodil International University (DIU). No sign-ups, no paywalls — just organized, accessible study materials for everyone.
 
@@ -48,7 +48,7 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 	</a>
 </div>
 
-## 2. DIUBlood
+## 2. DIUBlood (Website)
 
 DIUBlood is a blood donor discovery platform built for the Daffodil International University community. It connects people in urgent need of blood with registered donors — quickly, cleanly, and without friction. Click below on the red "Live Website" button to see the website. 
 
@@ -66,7 +66,7 @@ DIUBlood is a blood donor discovery platform built for the Daffodil Internationa
 	</a>
 </div>
 
-## 3. My Main Portfolio Website
+## 3. My Main Portfolio Website (Website)
 
 This is the source for oceanmallik.com — a small, multi-page personal portfolio built with plain HTML, modern CSS, and vanilla JavaScript. The site is served as static assets with no build step or external dependencies, so it can be deployed directly to any static hosting provider.
 
@@ -84,7 +84,7 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 	</a>
 </div>
 
-## 4. Best Friend Gallery (Static)
+## 4. Best Friend Gallery (Website)
 
 A nostalgic letter in motion celebrating a friendship that began in high school in 2022 and became something deeper—the kind of bond where a best friend becomes family.
 
@@ -102,7 +102,7 @@ A nostalgic letter in motion celebrating a friendship that began in high school 
 	</a>
 </div>
 
-## 5. Birthday Wishing Site (Static)
+## 5. Birthday Wishing Site (Website)
 
 A full-screen, scrollable birthday celebration website built with pure HTML and CSS (no JavaScript needed).
 
