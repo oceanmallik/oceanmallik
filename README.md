@@ -46,7 +46,7 @@ This part is work in progress...
 
 <div align="center">
 	<a href="https://diunotesbuddy.live/">
-		<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy" width="100%" />
+		<img src="./project-assets/DIUNotesBuddy/DNBApp.png" alt="DIU Notes Buddy" width="100%" />
 	</a>
 </div>
 
