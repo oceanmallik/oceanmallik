@@ -30,9 +30,11 @@
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium%20Skin%20Tone.png" alt="Man Technologist Medium Skin Tone" width="22" height="22" /> Works That I've Worked on
 
-## 1. DIU Notes Buddy (Website/App Coming Soon)
+## 2. DIU Notes (Mobile Application)
 
-DIU Notes Buddy is a free, open-source note-sharing platform built for students of the Software Engineering Department at Daffodil International University (DIU). No sign-ups, no paywalls — just organized, accessible study materials for everyone.
+DIU Notes is a free, open-source note-sharing mobile app for students at Daffodil International University (DIU). No sign-ups, no paywalls — just organized, accessible study materials for everyone. [Note: Signup is required if someone needs to contribute notes.]
+
+This part is work in progress...
 
 ![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white) ![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
 
@@ -48,9 +50,27 @@ DIU Notes Buddy is a free, open-source note-sharing platform built for students 
 	</a>
 </div>
 
-## 2. BloodInfo (Website)
+## 2. DIU Notes Buddy (Website)
 
-BloodInfo is a blood donor discovery platform built for the Daffodil International University community. It connects people in urgent need of blood with registered donors — quickly, cleanly, and without friction. Click below on the red "Live Website" button to see the website. 
+DIU Notes Buddy is a free website that is sharing notes and study metrials for Daffodil International University (DIU). It is the web version of the note taking app DIU Notes. 
+
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white) ![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
+
+<div align="center">
+
+[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyWeb-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddyWeb)
+
+</div>
+
+<div align="center">
+	<a href="https://diunotesbuddy.live/">
+		<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy" width="100%" />
+	</a>
+</div>
+
+## 3. BloodInfo (Website)
+
+BloodInfo is a blood donor discovery platform built for donators community. It connects people in urgent need of blood with registered donors — quickly, cleanly, and without friction. Click below on the red "Live Website" button to see the website. 
 
 ![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white) ![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
 
@@ -66,7 +86,7 @@ BloodInfo is a blood donor discovery platform built for the Daffodil Internation
 	</a>
 </div>
 
-## 3. My Main Portfolio Website (Website)
+## 4. My Main Portfolio Website (Website)
 
 This is the source for oceanmallik.com — a small, multi-page personal portfolio built with plain HTML, modern CSS, and vanilla JavaScript. The site is served as static assets with no build step or external dependencies, so it can be deployed directly to any static hosting provider.
 
@@ -84,7 +104,7 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 	</a>
 </div>
 
-## 4. Best Friend Gallery (Website)
+## 5. Best Friend Gallery (Website)
 
 A nostalgic letter in motion celebrating a friendship that began in high school in 2022 and became something deeper—the kind of bond where a best friend becomes family.
 
@@ -102,7 +122,7 @@ A nostalgic letter in motion celebrating a friendship that began in high school 
 	</a>
 </div>
 
-## 5. Birthday Wishing Site (Website)
+## 6. Birthday Wishing Site (Website)
 
 A full-screen, scrollable birthday celebration website built with pure HTML and CSS (no JavaScript needed).
 
