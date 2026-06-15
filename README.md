@@ -40,7 +40,7 @@ This part is work in progress...
 
 <div align="center">
 
-[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddy-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddy)
+[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddy-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddy)
 
 </div>
 
@@ -49,6 +49,9 @@ This part is work in progress...
 		<img src="./project-assets/DIUNotesBuddy/DNBApp.png" alt="DIU Notes Buddy" width="100%" />
 	</a>
 </div>
+
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="60" alt="Get it on Google Play"/>](https://play.google.com/store/apps/details?id=com.oceanmallik.diunote)
+
 
 ## 2. DIU Notes Buddy (Website)
 
