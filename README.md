@@ -3,26 +3,32 @@
 </div>
 <div align="center">
 
-### Software engineering student building reliable, efficient software with a focus on clean implementation and practical problem solving.
+### Software engineering student building reliable and efficient software.
 
-[![LinkedIn](https://img.shields.io/badge/Linkedin-%40oceanmallik-black?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBpbWFnZS1yZW5kZXJpbmc9Im9wdGltaXplUXVhbGl0eSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCA1MTIgNTA5LjY0Ij48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUwOS42NCIgcng9IjExNS42MSIgcnk9IjExNS42MSIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMDQuOTcgMTk3LjU0aDY0LjY5djMzLjE2aC45NGM5LjAxLTE2LjE2IDMxLjA0LTMzLjE2IDYzLjg5LTMzLjE2IDY4LjMxIDAgODAuOTQgNDIuNTEgODAuOTQgOTcuODF2MTE2LjkyaC02Ny40NmwtLjAxLTEwNC4xM2MwLTIzLjgxLS40OS01NC40NS0zNS4wOC01NC40NS0zNS4xMiAwLTQwLjUxIDI1LjkxLTQwLjUxIDUyLjcydjEwNS44NmgtNjcuNFYxOTcuNTR6bS0zOC4yMy02NS4wOWMwIDE5LjM2LTE1LjcyIDM1LjA4LTM1LjA4IDM1LjA4LTE5LjM3IDAtMzUuMDktMTUuNzItMzUuMDktMzUuMDggMC0xOS4zNyAxNS43Mi0zNS4wOCAzNS4wOS0zNS4wOCAxOS4zNiAwIDM1LjA4IDE1LjcxIDM1LjA4IDM1LjA4em0tNzAuMTcgNjUuMDloNzAuMTd2MjE0LjczSDk2LjU3VjE5Ny41NHoiLz48L3N2Zz4=&labelColor=red)](https://www.linkedin.com/in/oceanmallik/) [![Links](https://img.shields.io/badge/Click%20Here%20For%20All%20My%20Links-FF3B14?style=for-the-badge&labelColor=FF3B14)](https://link.oceanmallik.com/)
+[![LinkedIn](https://img.shields.io/badge/Linkedin-%40oceanmallik-black?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBpbWFnZS1yZW5kZXJpbmc9Im9wdGltaXplUXVhbGl0eSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHZpZXdCb3g9IjAgMCA1MTIgNTA5LjY0Ij48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUwOS42NCIgcng9IjExNS42MSIgcnk9IjExNS42MSIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMDQuOTcgMTk3LjU0aDY0LjY5djMzLjE2aC45NGM5LjAxLTE2LjE2IDMxLjA0LTMzLjE2IDYzLjg5LTMzLjE2IDY4LjMxIDAgODAuOTQgNDIuNTEgODAuOTQgOTcuODF2MTE2LjkyaC02Ny40NmwtLjAxLTEwNC4xM2MwLTIzLjgxLS40OS01NC40NS0zNS4wOC01NC40NS0zNS4xMiAwLTQwLjUxIDI1LjkxLTQwLjUxIDUyLjcydjEwNS44NmgtNjcuNFYxOTcuNTR6bS0zOC4yMy02NS4wOWMwIDE5LjM2LTE1LjcyIDM1LjA4LTM1LjA4IDM1LjA4LTE5LjM3IDAtMzUuMDktMTUuNzItMzUuMDktMzUuMDggMC0xOS4zNyAxNS43Mi0zNS4wOCAzNS4wOS0zNS4wOCAxOS4zNiAwIDM1LjA4IDE1LjcxIDM1LjA4IDM1LjA4em0tNzAuMTcgNjUuMDloNzAuMTd2MjE0LjczSDk2LjU3VjE5Ny41NHoiLz48L3N2Zz4=&labelColor=red)](https://www.linkedin.com/in/oceanmallik/)
+[![Links](https://img.shields.io/badge/Click%20Here%20For%20All%20My%20Links-FF3B14?style=for-the-badge&labelColor=FF3B14)](https://link.oceanmallik.com/)
 
 
 </div>
 
+<div align="center">
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/See-No-Evil%20Monkey.png" alt="See-No-Evil Monkey" width="22" height="22" /> GitHub Snapshot
+
+</div>
 
 <table align="center">
 	<tr>
-		<td><img src="./github-stats.svg" alt="GitHub stats" width="100%" /></td>
   		<td><img src="./top-langs.svg" alt="Top languages" width="100%" /></td>
   		<td><img src="./streak-stats.svg" alt="GitHub streak stats" width="100%" /></td>
 	</tr>
 </table>
 
-</br>
+<div align="center">
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium%20Skin%20Tone.png" alt="Man Technologist Medium Skin Tone" width="22" height="22" /> Works That I've Worked on
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium%20Skin%20Tone.png" alt="Man Technologist Medium Skin Tone" width="22" height="22" /> Things That I've Worked on
+
+</div>
 
 ## 1. DIU Notes (Mobile Application)
 
