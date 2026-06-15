@@ -36,11 +36,14 @@ DIU Notes is a free, open-source note-sharing mobile app for students at Daffodi
 
 This part is work in progress...
 
-![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white) ![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) 
+![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white)
+![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
 
 <div align="center">
 
-[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddy-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddy)
+[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyApp-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyApp)
+[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyAppDATABASE-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyDATABASE)
 
 </div>
 
@@ -61,7 +64,9 @@ DIU Notes Buddy is a free website that is sharing notes and study metrials for D
 
 <div align="center">
 
-[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyWeb-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddyWeb)
+[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/)
+[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyWeb-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddyWeb)
+[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyAppDATABASE-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyDATABASE)
 
 </div>
 
