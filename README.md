@@ -37,13 +37,16 @@ DIU Notes is a free, open-source note-sharing mobile app for students at Daffodi
 This part is work in progress...
 
 ![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) 
-![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white)
-![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
+![React Native](https://img.shields.io/badge/React-Native-black?style=flat&logo=react&logoColor=black&labelColor=white)
+![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
+![TS](https://img.shields.io/badge/TypeScript-black?style=flat&logo=typescript&logoColor=black&labelColor=white)
+![PYTHON](https://img.shields.io/badge/Python-black?style=flat&logo=python&logoColor=black&labelColor=white)
 
 <div align="center">
 
-[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyApp-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyApp)
-[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyAppDATABASE-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyDATABASE)
+[![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyApp-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyApp)
+[![Google Play](https://img.shields.io/badge/Get_it_on-Google_Play-red?logo=google-play&logoColor=white&style=for-the-badge)](https://play.google.com/store/apps/details?id=com.oceanmallik.diunote)
+[![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyAppDATABASE-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyDATABASE)
 
 </div>
 
@@ -53,20 +56,27 @@ This part is work in progress...
 	</a>
 </div>
 
+<div align="right">
+
 [<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="60" alt="Get it on Google Play"/>](https://play.google.com/store/apps/details?id=com.oceanmallik.diunote)
 
+</div>
 
 ## 2. DIU Notes Buddy (Website)
 
 DIU Notes Buddy is a free website that is sharing notes and study metrials for Daffodil International University (DIU). It is the web version of the note taking app DIU Notes. 
 
-![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white) ![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat)
+![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
+![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=black&labelColor=white)
+![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
+![PYTHON](https://img.shields.io/badge/Python-black?style=flat&logo=python&logoColor=black&labelColor=white)
 
 <div align="center">
 
-[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/)
-[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyWeb-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddyWeb)
-[![Repo](https://img.shields.io/badge/Github%20Repo-%2FDIUNotesBuddyAppDATABASE-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyDATABASE)
+[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/)
+[![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyWeb-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddyWeb)
+[![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyAppDATABASE-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyDATABASE)
 
 </div>
 
@@ -80,11 +90,16 @@ DIU Notes Buddy is a free website that is sharing notes and study metrials for D
 
 BloodInfo is a blood donor discovery platform built for donators community. It connects people in urgent need of blood with registered donors — quickly, cleanly, and without friction. Click below on the red "Live Website" button to see the website. 
 
-![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white) ![PYTHON](https://img.shields.io/badge/PYTHON-black?style=flat&logo=python&logoColor=9E0010&labelColor=white)
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat)
+![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
+![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=black&labelColor=white)
+![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
+![PYTHON](https://img.shields.io/badge/Python-black?style=flat&logo=python&logoColor=black&labelColor=white)
 
 <div align="center">
 
-[![Blood](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-BLOOD.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://blood.oceanmallik.com/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FOneDropOneLife-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/OneDropOneLife)
+[![Blood](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-BLOOD.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://blood.oceanmallik.com/)
+[![Repo](https://img.shields.io/badge/-%2FOneDropOneLife-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/OneDropOneLife)
 
 </div>
 
@@ -98,11 +113,15 @@ BloodInfo is a blood donor discovery platform built for donators community. It c
 
 This is the source for oceanmallik.com — a small, multi-page personal portfolio built with plain HTML, modern CSS, and vanilla JavaScript. The site is served as static assets with no build step or external dependencies, so it can be deployed directly to any static hosting provider.
 
-![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white)
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat)
+![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
+![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=black&labelColor=white)
+![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
 
 <div align="center">
 
-[![My Website](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://oceanmallik.com/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FmyWebsite-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/myWebsite)
+[![My Website](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://oceanmallik.com/)
+[![Repo](https://img.shields.io/badge/-%2FmyWebsite-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/myWebsite)
 
 </div>
 
@@ -118,11 +137,15 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 
 A nostalgic letter in motion celebrating a friendship that began in high school in 2022 and became something deeper—the kind of bond where a best friend becomes family.
 
-![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white) ![JS](https://img.shields.io/badge/JAVASCRIPT-black?style=flat&logo=javascript&logoColor=yellow&labelColor=white)
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat)
+![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
+![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=black&labelColor=white)
+![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
 
 <div align="center">
 
-[![Best Friend Site](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-NIMU.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://nimu.oceanmallik.com/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2FbestFriend-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/bestFriend)
+[![Best Friend Site](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-NIMU.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://nimu.oceanmallik.com/)
+[![Repo](https://img.shields.io/badge/-%2FbestFriend-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/bestFriend)
 
 </div>
 
@@ -136,10 +159,13 @@ A nostalgic letter in motion celebrating a friendship that began in high school 
 
 A full-screen, scrollable birthday celebration website built with pure HTML and CSS (no JavaScript needed).
 
-![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=F04C11&labelColor=white) ![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=183CED&labelColor=white)
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat)
+![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
+![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=black&labelColor=white)
 <div align="center">
 
-[![Birthday](https://img.shields.io/badge/%F0%9F%94%97%20Live%20Website-BIRTHDAY.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://birthday.oceanmallik.com/) [![Repo](https://img.shields.io/badge/Github%20Repo-%2Fbirthday-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/birthday)
+[![Birthday](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-BIRTHDAY.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://birthday.oceanmallik.com/)
+[![Repo](https://img.shields.io/badge/-%2Fbirthday-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/birthday)
 
 </div>
 
