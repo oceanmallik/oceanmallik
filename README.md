@@ -112,7 +112,9 @@ This is the source for oceanmallik.com — a small, multi-page personal portfoli
 	</a>
 </div>
 
-## 5. Best Friend Gallery (Website)
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium%20Skin%20Tone.png" alt="Man Technologist Medium Skin Tone" width="22" height="22" /> Casual Works I've done for no reason
+
+## 1. Best Friend Gallery (Website)
 
 A nostalgic letter in motion celebrating a friendship that began in high school in 2022 and became something deeper—the kind of bond where a best friend becomes family.
 
@@ -130,7 +132,7 @@ A nostalgic letter in motion celebrating a friendship that began in high school 
 	</a>
 </div>
 
-## 6. Birthday Wishing Site (Website)
+## 2. Birthday Wishing Site (Website)
 
 A full-screen, scrollable birthday celebration website built with pure HTML and CSS (no JavaScript needed).
 
