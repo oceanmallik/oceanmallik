@@ -30,7 +30,7 @@
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium%20Skin%20Tone.png" alt="Man Technologist Medium Skin Tone" width="22" height="22" /> Works That I've Worked on
 
-## 2. DIU Notes (Mobile Application)
+## 1. DIU Notes (Mobile Application)
 
 DIU Notes is a free, open-source note-sharing mobile app for students at Daffodil International University (DIU). No sign-ups, no paywalls — just organized, accessible study materials for everyone. [Note: Signup is required if someone needs to contribute notes.]
 
