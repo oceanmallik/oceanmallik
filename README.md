@@ -10,12 +10,6 @@
 
 </div>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Sunglasses.png" alt="Smiling Face with Sunglasses" width="22" height="22" /> What I Work On
-
-- Strong foundations in programming and software engineering
-- Building projects that are simple to understand and dependable to run
-- Learning by solving real problems and refining the result
-
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/See-No-Evil%20Monkey.png" alt="See-No-Evil Monkey" width="22" height="22" /> GitHub Snapshot
 
 <table align="center">
@@ -33,8 +27,6 @@
 ## 1. DIU Notes (Mobile Application)
 
 DIU Notes is a free, open-source note-sharing mobile app for students at Daffodil International University (DIU). No sign-ups, no paywalls — just organized, accessible study materials for everyone. [Note: Signup is required if someone needs to contribute notes.]
-
-This part is work in progress...
 
 ![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) 
 ![React Native](https://img.shields.io/badge/React-Native-black?style=flat&logo=react&logoColor=black&labelColor=white)
