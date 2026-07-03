@@ -40,7 +40,6 @@ Join beta from here: https://beta.diunotesbuddy.live/ (Make sure you join google
 ![React Native](https://img.shields.io/badge/React-Native-black?style=flat&logo=react&logoColor=black&labelColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
 ![TS](https://img.shields.io/badge/TypeScript-black?style=flat&logo=typescript&logoColor=black&labelColor=white)
-![PYTHON](https://img.shields.io/badge/Python-black?style=flat&logo=python&logoColor=black&labelColor=white)
 
 <div align="center">
 
