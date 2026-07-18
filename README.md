@@ -34,8 +34,6 @@
 
 DIU Notes is a free, open-source note-sharing mobile app for students at Daffodil International University (DIU). Free and accessible study materials for everyone. [Note: Signup is required if someone needs to contribute notes.] 
 
-Join beta: https://beta.diunotesbuddy.live/ (Make sure you join google groups first)
-
 ![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) 
 ![React Native](https://img.shields.io/badge/React-Native-black?style=flat&logo=react&logoColor=black&labelColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
