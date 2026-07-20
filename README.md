@@ -30,7 +30,7 @@
 
 </div>
 
-## 1. DIU Notes (Mobile Application)
+## 1. DIU Notes (Android Application)
 
 DIU Notes is a free, open-source note-sharing mobile app for students at Daffodil International University (DIU). Free and accessible study materials for everyone. [Note: Signup is required if someone needs to contribute notes.] 
 
