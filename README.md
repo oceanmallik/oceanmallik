@@ -108,7 +108,7 @@ BloodInfo is a blood donor discovery platform built for donators community. It c
 
 ## 4. My Main Portfolio Website (Website)
 
-This is the source for oceanmallik.com — a small, multi-page personal portfolio built with plain HTML, modern CSS, and vanilla JavaScript. The site is served as static assets with no build step or external dependencies, so it can be deployed directly to any static hosting provider.
+This is the source for www.oceanmallik.com — a small, multi-page personal portfolio built with plain HTML, modern CSS, and vanilla JavaScript. The site is served as static assets with no build step or external dependencies, so it can be deployed directly to any static hosting provider.
 
 ![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat)
 ![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
