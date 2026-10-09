@@ -127,5 +127,3 @@ This is the source for www.oceanmallik.com — a small, multi-page personal port
 		<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="My Portfolio Website" width="100%" />
 	</a>
 </div>
-
-Hello
