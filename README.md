@@ -42,13 +42,13 @@ BartaWire! Fast, accurate, and unbiased news. Stay informed with breaking storie
 
 <div align="center">
 
-[![Blog](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-BLOG.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://blog.oceanmallik.com/)
+[![Blog](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-WWW.BARTAWIRE.COM-black?style=for-the-badge&labelColor=red)](https://www.bartawire.com/)
 [![Repo](https://img.shields.io/badge/-%2FblogWebsite-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/blogWebsite)
 
 </div>
 
 <div align="center">
-	<a href="https://blog.oceanmallik.com/">
+	<a href="https://www.bartawire.com/">
 		<img src="./project-assets/blog/blog.png" alt="BartaWire" width="100%" />
 	</a>
 </div>
