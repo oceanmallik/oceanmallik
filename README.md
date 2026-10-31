@@ -30,26 +30,58 @@
 
 </div>
 
-## 1. DIU Notes (Android Application)
+## 1. BartaWire (Website)
 
-DIU Notes is a free and open-source note-sharing mobile app for students at Daffodil International University (DIU). Free and accessible study materials for everyone. 
+BartaWire! Fast, accurate, and unbiased news. Stay informed with breaking stories, in-depth reports, and updates that matter, 24/7. Click below on the red "Live Website" button to see the website. 
+
+![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat)
+![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
+![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=black&labelColor=white)
+![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-black?style=flat&logo=Supabase&logoColor=black&labelColor=white)
+
+<div align="center">
+
+[![Blog](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-BLOG.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://blog.oceanmallik.com/)
+[![Repo](https://img.shields.io/badge/-%2FblogWebsite-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/blogWebsite)
+
+</div>
+
+<div align="center">
+	<a href="https://blog.oceanmallik.com/">
+		<img src="./project-assets/blog/blog.png" alt="BartaWire" width="100%" />
+	</a>
+</div>
+
+## 2. DIU Notes
+
+DIU Notes is a free and open-source note-sharing platform for students at Daffodil International University (DIU). It provides free and accessible study materials through both a React Native mobile app and a website.
 
 ![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat) 
 ![React Native](https://img.shields.io/badge/React-Native-black?style=flat&logo=react&logoColor=black&labelColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
 ![TS](https://img.shields.io/badge/TypeScript-black?style=flat&logo=typescript&logoColor=black&labelColor=white)
+![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
+![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=black&labelColor=white)
+![PYTHON](https://img.shields.io/badge/Python-black?style=flat&logo=python&logoColor=black&labelColor=white)
 
 <div align="center">
 
-[![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyApp-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyApp)
 [![Google Play](https://img.shields.io/badge/Get_it_on-Google_Play-red?logo=google-play&logoColor=white&style=for-the-badge)](https://play.google.com/store/apps/details?id=com.oceanmallik.diunote)
+[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/)
+
+[![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyApp-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyApp)
+[![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyWeb-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddyWeb)
 [![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyAppDATABASE-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyDATABASE)
 
 </div>
 
 <div align="center">
 	<a href="https://play.google.com/store/apps/details?id=com.oceanmallik.diunote">
-		<img src="./project-assets/DIUNotesBuddy/DNBApp.png" alt="DIU Notes Buddy" width="100%" />
+		<img src="./project-assets/DIUNotesBuddy/DNBApp.png" alt="DIU Notes Buddy mobile app" width="54%" />
+	</a>
+	<a href="https://diunotesbuddy.live/">
+		<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy website" width="45%" />
 	</a>
 </div>
 
@@ -59,54 +91,7 @@ DIU Notes is a free and open-source note-sharing mobile app for students at Daff
 
 </div>
 
-## 2. DIU Notes Buddy (Website)
-
-DIU Notes Buddy is a free website that is sharing notes and study metrials for Daffodil International University (DIU). It is the web version of the note taking app DIU Notes. 
-
-![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat)
-![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
-![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=black&labelColor=white)
-![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
-![PYTHON](https://img.shields.io/badge/Python-black?style=flat&logo=python&logoColor=black&labelColor=white)
-
-<div align="center">
-
-[![DIUNotesBuddy](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-DIUNOTESBUDDY.LIVE-black?style=for-the-badge&labelColor=red)](https://diunotesbuddy.live/)
-[![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyWeb-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/AxiomVessel/DIUNotesBuddyWeb)
-[![Repo](https://img.shields.io/badge/-%2FDIUNotesBuddyAppDATABASE-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/DIUNotesBuddyDATABASE)
-
-</div>
-
-<div align="center">
-	<a href="https://diunotesbuddy.live/">
-		<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy" width="100%" />
-	</a>
-</div>
-
-## 3. BloodInfo (Website)
-
-BloodInfo is a blood donor discovery platform built for donators community. It connects people in urgent need of blood with registered donors — quickly, cleanly, and without friction. Click below on the red "Live Website" button to see the website. 
-
-![Used Languages](https://img.shields.io/badge/Used%20Languages%3A-black?style=flat)
-![HTML](https://img.shields.io/badge/HTML-black?style=flat&logo=html5&logoColor=black&labelColor=white)
-![CSS](https://img.shields.io/badge/CSS-black?style=flat&logo=css&logoColor=black&labelColor=white)
-![JS](https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript&logoColor=black&labelColor=white)
-![PYTHON](https://img.shields.io/badge/Python-black?style=flat&logo=python&logoColor=black&labelColor=white)
-
-<div align="center">
-
-[![Blood](https://img.shields.io/badge/%F0%9F%9A%80Live%20Website-BLOOD.OCEANMALLIK.COM-black?style=for-the-badge&labelColor=red)](https://blood.oceanmallik.com/)
-[![Repo](https://img.shields.io/badge/-%2FOneDropOneLife-black?style=for-the-badge&logo=github&logoColor=black&labelColor=14FF82)](https://github.com/oceanmallik/OneDropOneLife)
-
-</div>
-
-<div align="center">
-	<a href="https://blood.oceanmallik.com/">
-		<img src="./project-assets/Blood/donors.png" alt="BloodInfo" width="100%" />
-	</a>
-</div>
-
-## 4. My Main Portfolio Website (Website)
+## 3. My Main Portfolio Website (Website)
 
 This is the source for www.oceanmallik.com — a small, multi-page personal portfolio built with plain HTML, modern CSS, and vanilla JavaScript. The site is served as static assets with no build step or external dependencies, so it can be deployed directly to any static hosting provider.
 
@@ -127,6 +112,3 @@ This is the source for www.oceanmallik.com — a small, multi-page personal port
 		<img src="./project-assets/myWebsite/myWebsite-dark-white.png" alt="My Portfolio Website" width="100%" />
 	</a>
 </div>
-
-
-New design coming soon...
