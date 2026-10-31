@@ -78,10 +78,7 @@ DIU Notes is a free and open-source note-sharing platform for students at Daffod
 
 <div align="center">
 	<a href="https://play.google.com/store/apps/details?id=com.oceanmallik.diunote">
-		<img src="./project-assets/DIUNotesBuddy/DNBApp.png" alt="DIU Notes Buddy mobile app" width="54%" />
-	</a>
-	<a href="https://diunotesbuddy.live/">
-		<img src="./project-assets/DIUNotesBuddy/DNB.png" alt="DIU Notes Buddy website" width="45%" />
+		<img src="./project-assets/DIUNotesBuddy/DNBApp.png" alt="DIU Notes Buddy mobile app" />
 	</a>
 </div>
 
