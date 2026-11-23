@@ -4,7 +4,7 @@ on:
     - cron: "0 * * * *"
   workflow_dispatch:
 jobs:
-  update-readme:
+  update-stats:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -17,24 +17,11 @@ jobs:
         with:
           node-version: 22
 
-      - name: Generate Top Langs (Locally)
+      - name: Generate SVGs
         env:
-          PAT_1: ${{ secrets.GH_PAT }}
-        run: |
-          git clone https://github.com/anuraghazra/github-readme-stats.git /tmp/ghrs
-          cd /tmp/ghrs
-          npm install
-          PORT=3000 node express.js &
-          echo "Waiting for Node server to boot..."
-          timeout 30 bash -c 'until curl -s http://localhost:3000 > /dev/null; do sleep 2; done'
-          cd ${{ github.workspace }}
-          echo "Fetching Top Langs..."
-          curl --fail -s "http://localhost:3000/api/top-langs?username=oceanmallik&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact&hide=shell,powershell,html,css&v=1" > top-langs.svg
-
-      - name: Fetch Streak Stats (From Public API)
-        run: |
-          echo "Fetching Streak Stats from the official demolab instance..."
-          curl --fail -s "https://streak-stats.demolab.com/?user=oceanmallik&theme=dark&hide_border=false" > streak-stats.svg
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_USERNAME: oceanmallik
+        run: node scripts/generate-stats.mjs
 
       - name: Commit and Push
         run: |
