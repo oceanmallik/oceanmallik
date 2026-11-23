@@ -10,6 +10,7 @@ const TOKEN = process.env.GH_TOKEN;
 
 const EXCLUDE_LANGS = new Set(["shell", "powershell", "html", "css"]);
 const MAX_LANGS = 6;
+const HEATMAP_WEEKS = 56;
 
 const FONT = "Inter, 'Segoe UI', system-ui, Ubuntu, 'Helvetica Neue', Arial, sans-serif";
 
@@ -104,10 +105,6 @@ export function computeStreaks(days) {
   const todayStr = new Date().toISOString().slice(0, 10);
   const list = days.filter((d) => d.date <= todayStr);
   const total = list.reduce((s, d) => s + d.count, 0);
-  const year = todayStr.slice(0, 4);
-  const thisYear = list.filter((d) => d.date.startsWith(year)).reduce((s, d) => s + d.count, 0);
-  const activeDays = list.filter((d) => d.count > 0).length;
-  const best = list.reduce((b, d) => (d.count > b.count ? d : b), { date: null, count: 0 });
 
   let longest = { len: 0, start: null, end: null };
   let run = 0;
@@ -132,7 +129,7 @@ export function computeStreaks(days) {
     i--;
   }
 
-  return { total, thisYear, activeDays, dayCount: list.length, best, current, longest };
+  return { total, longest, current, list };
 }
 
 /* -------------------------------- Helpers -------------------------------- */
@@ -160,89 +157,146 @@ function fmtRange(start, end) {
 
 /* ------------------------------ Shared card UI ------------------------------ */
 
-const W = 460;
-const H = 330;
-const PAD = 28;
-
 const GH_MARK =
   "M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z";
 
-function cardShell({ title, ariaLabel, descLines, rows }) {
-  const rowsSvg = rows
-    .map((r, i) => {
-      const y = 152 + i * 30;
-      const delay = (0.05 + i * 0.07).toFixed(2);
-      return `
-  <g class="row" style="animation-delay:${delay}s">
-    <path d="M3.5 8.5l3 3 6-6.5" transform="translate(${PAD} ${y - 13})" stroke="${esc(r.color || "#d4d4d4")}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="${PAD + 26}" y="${y}" font-size="14.5"><tspan fill="#d4d4d4">${esc(r.label)}:</tspan> <tspan fill="#ffffff" font-weight="600">${esc(r.value)}</tspan>${
-      r.extra ? ` <tspan fill="#737373">• ${esc(r.extra)}</tspan>` : ""
-    }</text>
-  </g>`;
-    })
-    .join("");
-
-  const cx = 352;
-  const cy = 218;
+// Neutral dark card shell: border, faded GitHub logo + concentric squares, header (icon + title).
+function shell({ W, H, title, right, logoX, logoY, body, extraDefs = "", extraCss = "" }) {
   const squares = [76, 118, 160, 202]
     .map(
       (s) =>
-        `<rect x="${cx - s / 2}" y="${cy - s / 2}" width="${s}" height="${s}" rx="${Math.round(s * 0.2)}" stroke="#ffffff" stroke-opacity="0.05"/>`
+        `<rect x="${logoX - s / 2}" y="${logoY - s / 2}" width="${s}" height="${s}" rx="${Math.round(s * 0.2)}" stroke="#ffffff" stroke-opacity="0.05"/>`
     )
     .join("");
 
-  const [l1, l2] = descLines;
-
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" role="img" aria-label="${esc(ariaLabel)}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" role="img" aria-label="${esc(title)}">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#181818"/>
       <stop offset="1" stop-color="#121212"/>
-    </linearGradient>
+    </linearGradient>${extraDefs}
   </defs>
   <style>
     text { font-family: ${FONT}; }
-    .row { animation: fade 0.6s ease-out backwards; }
-    @keyframes fade { from { opacity: 0; transform: translateY(4px); } }
+    .fade { animation: fade 0.9s ease-out; }
+    @keyframes fade { from { opacity: 0; } }${extraCss}
   </style>
 
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="20" fill="url(#bg)" stroke="#ffffff" stroke-opacity="0.1"/>
 
   ${squares}
-  <path d="${GH_MARK}" transform="translate(${cx - 32} ${cy - 32}) scale(4)" fill="#ffffff" fill-opacity="0.07"/>
+  <path d="${GH_MARK}" transform="translate(${logoX - 32} ${logoY - 32}) scale(4)" fill="#ffffff" fill-opacity="0.07"/>
 
-  <path d="${GH_MARK}" transform="translate(${PAD} 30) scale(1.25)" fill="#f5f5f5"/>
-  <text x="${PAD + 32}" y="46" font-size="18" font-weight="600" fill="#ffffff">${esc(title)}</text>
-
-  <text x="${PAD}" y="86" font-size="14.5" fill="#8a8a8a">${l1}</text>
-  <text x="${PAD}" y="106" font-size="14.5" fill="#8a8a8a">${l2}</text>
-  ${rowsSvg}
+  <path d="${GH_MARK}" transform="translate(28 26) scale(1.25)" fill="#f5f5f5"/>
+  <text x="60" y="42" font-size="18" font-weight="600" fill="#ffffff">${esc(title)}</text>
+  ${right ? `<text x="${W - 28}" y="42" text-anchor="end" font-size="12.5" fill="#737373">${esc(right)}</text>` : ""}
+${body}
 </svg>
 `;
 }
 
-/* --------------------------------- Cards --------------------------------- */
+/* ------------------------------ Streak card ------------------------------ */
 
-export function renderStreakCard(s) {
-  const { total, thisYear, activeDays, dayCount, best, current, longest, since } = s;
-  const rows = [
-    { label: "Contributions", value: fmtNum(total), extra: `since ${fmtDate(since, "full")}` },
-    { label: "This year", value: fmtNum(thisYear) },
-    { label: "Current streak", value: `${current.len} days`, extra: fmtRange(current.start, current.end) },
-    { label: "Longest streak", value: `${longest.len} days`, extra: fmtRange(longest.start, longest.end) },
-    { label: "Active days", value: fmtNum(activeDays), extra: `of ${fmtNum(dayCount)}` },
-    { label: "Best day", value: fmtNum(best.count), extra: best.date ? fmtDate(best.date, "full") : undefined },
-  ];
-  return cardShell({
-    title: USERNAME,
-    ariaLabel: `GitHub contribution stats for ${USERNAME}`,
-    descLines: [
-      `<tspan fill="#ffffff">Contribution streaks</tspan> and activity from`,
-      `my GitHub profile, updated every hour.`,
-    ],
-    rows,
+function heatmapCells(list, x0, y0) {
+  const CELL = 8;
+  const STEP = 10;
+  if (!list.length) return "";
+
+  const dayNum = (s) => Math.floor(Date.parse(s + "T00:00:00Z") / 864e5);
+  const dow = (dn) => (dn + 4) % 7; // 1970-01-01 was a Thursday
+  const lastDn = dayNum(list[list.length - 1].date);
+  const lastWeekStart = lastDn - dow(lastDn);
+
+  const visible = [];
+  for (const d of list) {
+    const dn = dayNum(d.date);
+    const col = HEATMAP_WEEKS - 1 - (lastWeekStart - (dn - dow(dn))) / 7;
+    if (col >= 0) visible.push({ ...d, col, row: dow(dn) });
+  }
+  const max = Math.max(1, ...visible.map((d) => d.count));
+  const levels = [0.28, 0.5, 0.75, 1];
+
+  return visible
+    .map((d) => {
+      let fill = "#ffffff";
+      let op = 0.06;
+      if (d.count > 0) {
+        const r = d.count / max;
+        op = levels[r > 0.75 ? 3 : r > 0.5 ? 2 : r > 0.25 ? 1 : 0];
+      }
+      return `<rect x="${x0 + d.col * STEP}" y="${y0 + d.row * STEP}" width="${CELL}" height="${CELL}" rx="2" fill="${fill}" fill-opacity="${op}"/>`;
+    })
+    .join("");
+}
+
+export function renderStreakCard({ total, current, longest, list, since }) {
+  const W = 640;
+  const H = 320;
+  const R = 40;
+  const C = +(2 * Math.PI * R).toFixed(2);
+  const ratio = longest.len > 0 ? Math.min(current.len / longest.len, 1) : 0;
+  const offset = +(C * (1 - ratio)).toFixed(2);
+  const hmWidth = HEATMAP_WEEKS * 10 - 2;
+  const hmX = (W - hmWidth) / 2;
+
+  const col = (cx, number, label, sub) => `
+  <g class="fade">
+    <text x="${cx}" y="134" text-anchor="middle" font-size="38" font-weight="700" fill="#ffffff">${esc(number)}</text>
+    <text x="${cx}" y="196" text-anchor="middle" font-size="13" font-weight="600" fill="#d4d4d4">${esc(label)}</text>
+    <text x="${cx}" y="215" text-anchor="middle" font-size="11" fill="#737373">${esc(sub)}</text>
+  </g>`;
+
+  const body = `
+  <circle cx="320" cy="122" r="120" fill="url(#glow)"/>
+
+  ${col(110, fmtNum(total), "Total Contributions", `${fmtDate(since, "full")} - Present`)}
+
+  <g>
+    <circle cx="320" cy="122" r="${R}" stroke="#ffffff" stroke-opacity="0.08" stroke-width="7"/>
+    <g transform="rotate(-90 320 122)">
+      <circle class="arc" cx="320" cy="122" r="${R}" stroke="url(#flame)" stroke-width="7" stroke-linecap="round" filter="url(#blur)" opacity="0.5"/>
+      <circle class="arc" cx="320" cy="122" r="${R}" stroke="url(#flame)" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(310 90) scale(0.85)" stroke="url(#flame)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+    </g>
+    <text x="320" y="136" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">${current.len}</text>
+    <text x="320" y="196" text-anchor="middle" font-size="13" font-weight="600" fill="#fb923c">Current Streak</text>
+    <text x="320" y="215" text-anchor="middle" font-size="11" fill="#737373">${esc(fmtRange(current.start, current.end))}</text>
+  </g>
+
+  ${col(530, String(longest.len), "Longest Streak", fmtRange(longest.start, longest.end))}
+
+  <line x1="215" y1="80" x2="215" y2="215" stroke="#ffffff" stroke-opacity="0.08"/>
+  <line x1="425" y1="80" x2="425" y2="215" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <g class="fade">${heatmapCells(list, hmX, 238)}</g>`;
+
+  const extraDefs = `
+    <linearGradient id="flame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fde047"/>
+      <stop offset="0.5" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fb923c" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#fb923c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>`;
+
+  const extraCss = `
+    .arc { stroke-dasharray: ${C}; stroke-dashoffset: ${offset}; animation: draw 1.4s ease-out 0.2s; }
+    @keyframes draw { from { stroke-dashoffset: ${C}; } }`;
+
+  return shell({
+    W, H, title: "Contributions", right: `@${USERNAME}`,
+    logoX: 540, logoY: 170, body, extraDefs, extraCss,
   });
 }
+
+/* ------------------------------ Languages card ------------------------------ */
 
 function visibleColor(hex) {
   const m = /^#([0-9a-f]{6})$/i.exec(hex || "");
@@ -253,20 +307,40 @@ function visibleColor(hex) {
 }
 
 export function renderLangsCard(langs) {
-  const rows = langs.map((l) => ({
-    label: l.name,
-    value: l.pct < 0.1 ? "<0.1%" : `${l.pct.toFixed(1)}%`,
-    color: visibleColor(l.color),
-  }));
-  if (!rows.length) rows.push({ label: "No language data yet", value: "-" });
-  return cardShell({
-    title: "Top Languages",
-    ariaLabel: `Most used languages for ${USERNAME}`,
-    descLines: [
-      `<tspan fill="#ffffff">Most used languages</tspan> across my public`,
-      `repositories. Forks and markup are excluded.`,
-    ],
-    rows,
+  const W = 400;
+  const H = 320;
+  const PAD = 28;
+  const trackW = W - PAD * 2;
+
+  const rows = langs
+    .map((l, i) => {
+      const y = 94 + i * 37;
+      const color = visibleColor(l.color);
+      const w = Math.max(4, +((trackW * l.pct) / 100).toFixed(2));
+      const pct = l.pct < 0.1 ? "<0.1%" : `${l.pct.toFixed(1)}%`;
+      const delay = (0.15 + i * 0.1).toFixed(2);
+      return `
+  <g>
+    <circle cx="${PAD + 4}" cy="${y - 4}" r="5" fill="${esc(color)}"/>
+    <text x="${PAD + 18}" y="${y}" font-size="14" font-weight="500" fill="#e5e5e5">${esc(l.name)}</text>
+    <text x="${W - PAD}" y="${y}" text-anchor="end" font-size="13" fill="#a3a3a3">${esc(pct)}</text>
+    <rect x="${PAD}" y="${y + 10}" width="${trackW}" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+    <rect class="bar" style="animation-delay:${delay}s" x="${PAD}" y="${y + 10}" width="${w}" height="6" rx="3" fill="${esc(color)}"/>
+  </g>`;
+    })
+    .join("");
+
+  const empty = langs.length
+    ? ""
+    : `<text x="${W / 2}" y="180" text-anchor="middle" font-size="14" fill="#737373">No language data yet</text>`;
+
+  const extraCss = `
+    .bar { animation: grow 1s ease-out backwards; }
+    @keyframes grow { from { width: 0; } }`;
+
+  return shell({
+    W, H, title: "Top Languages", right: "",
+    logoX: 290, logoY: 190, body: rows + empty, extraCss,
   });
 }
 
