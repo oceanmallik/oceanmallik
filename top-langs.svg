@@ -25,28 +25,28 @@
   <g>
     <circle cx="32" cy="90" r="5" fill="#f1e05a"/>
     <text x="46" y="94" font-size="14" font-weight="500" fill="#e5e5e5">JavaScript</text>
-    <text x="372" y="94" text-anchor="end" font-size="13" fill="#a3a3a3">94.2%</text>
+    <text x="372" y="94" text-anchor="end" font-size="13" fill="#a3a3a3">94.6%</text>
     <rect x="28" y="104" width="344" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
-    <rect class="bar" style="animation-delay:0.15s" x="28" y="104" width="323.96" height="6" rx="3" fill="#f1e05a"/>
+    <rect class="bar" style="animation-delay:0.15s" x="28" y="104" width="325.3" height="6" rx="3" fill="#f1e05a"/>
   </g>
   <g>
     <circle cx="32" cy="127" r="5" fill="#3178c6"/>
     <text x="46" y="131" font-size="14" font-weight="500" fill="#e5e5e5">TypeScript</text>
-    <text x="372" y="131" text-anchor="end" font-size="13" fill="#a3a3a3">3.3%</text>
+    <text x="372" y="131" text-anchor="end" font-size="13" fill="#a3a3a3">3.1%</text>
     <rect x="28" y="141" width="344" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
-    <rect class="bar" style="animation-delay:0.25s" x="28" y="141" width="11.47" height="6" rx="3" fill="#3178c6"/>
+    <rect class="bar" style="animation-delay:0.25s" x="28" y="141" width="10.7" height="6" rx="3" fill="#3178c6"/>
   </g>
   <g>
     <circle cx="32" cy="164" r="5" fill="#a3a3a3"/>
     <text x="46" y="168" font-size="14" font-weight="500" fill="#e5e5e5">C</text>
-    <text x="372" y="168" text-anchor="end" font-size="13" fill="#a3a3a3">1.7%</text>
+    <text x="372" y="168" text-anchor="end" font-size="13" fill="#a3a3a3">1.6%</text>
     <rect x="28" y="178" width="344" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
-    <rect class="bar" style="animation-delay:0.35s" x="28" y="178" width="5.74" height="6" rx="3" fill="#a3a3a3"/>
+    <rect class="bar" style="animation-delay:0.35s" x="28" y="178" width="5.36" height="6" rx="3" fill="#a3a3a3"/>
   </g>
   <g>
     <circle cx="32" cy="201" r="5" fill="#3572A5"/>
     <text x="46" y="205" font-size="14" font-weight="500" fill="#e5e5e5">Python</text>
-    <text x="372" y="205" text-anchor="end" font-size="13" fill="#a3a3a3">0.4%</text>
+    <text x="372" y="205" text-anchor="end" font-size="13" fill="#a3a3a3">0.3%</text>
     <rect x="28" y="215" width="344" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
     <rect class="bar" style="animation-delay:0.45s" x="28" y="215" width="4" height="6" rx="3" fill="#3572A5"/>
   </g>
