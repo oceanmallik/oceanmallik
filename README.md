@@ -17,12 +17,10 @@
 
 </div>
 
-<table align="center">
-	<tr>
-  		<td><img src="./top-langs.svg" alt="Top languages" width="100%" /></td>
-  		<td><img src="./streak-stats.svg" alt="GitHub streak stats" width="100%" /></td>
-	</tr>
-</table>
+<div align="center">
+  <img src="./top-langs.svg" alt="Top languages" width="38%" />
+  <img src="./streak-stats.svg" alt="GitHub streak stats" width="61%" />
+</div>
 
 <div align="center">
 
