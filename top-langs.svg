@@ -27,7 +27,7 @@
     <text x="46" y="94" font-size="14" font-weight="500" fill="#e5e5e5">JavaScript</text>
     <text x="372" y="94" text-anchor="end" font-size="13" fill="#a3a3a3">94.8%</text>
     <rect x="28" y="104" width="344" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
-    <rect class="bar" style="animation-delay:0.15s" x="28" y="104" width="326.06" height="6" rx="3" fill="#f1e05a"/>
+    <rect class="bar" style="animation-delay:0.15s" x="28" y="104" width="326.07" height="6" rx="3" fill="#f1e05a"/>
   </g>
   <g>
     <circle cx="32" cy="127" r="5" fill="#3178c6"/>
